@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/conf/panelconf.ts","./src/store/store.ts","./src/ui_interact/leftpanelbutton.ts","./src/utils/getapi.ts","./src/utils/heroes.ts","./src/utils/misc.ts"],"errors":true,"version":"5.9.3"}

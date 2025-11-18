@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.tauri.app/config/2.3.0",
+  "productName": "Dota 2 API",
+  "version": "1.0.0",
+  "identifier": "com.dota2api.app",
+  "build": {
+    "beforeDevCommand": "bun run dev",
+    "beforeBuildCommand": "bun run build",
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173"
+  },
+  "bundle": {
+    "active": true,
+    "targets": "nsis"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Dota 2 API",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 900,
+        "minHeight": 600
+      }
+    ]
+  }
+}
